@@ -150,6 +150,19 @@ const Certifications = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full py-2 px-4 text-center border border-primary text-primary rounded-lg text-sm font-medium hover:bg-primary hover:text-white transition-all duration-300"
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '8px 16px',
+                      textAlign: 'center',
+                      border: '1px solid #0ea5e9',
+                      color: '#0ea5e9',
+                      borderRadius: '8px',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      cursor: 'pointer',
+                      textDecoration: 'none'
+                    }}
                   >
                     View Credential
                   </a>
