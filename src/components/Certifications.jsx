@@ -14,48 +14,41 @@ const Certifications = () => {
   // Certifications data
   const certifications = [
     {
-      title: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/0ea5e9?text=Meta+Certificate',
-      credentialUrl: '#'
+      title: 'Gamified Cybersecurity Workshop',
+      issuer: 'GDG-JSSATEB',
+      date: '2025',
+      image: '/cybersecurity workshop.png',
+      credentialUrl: '/cybersecurity workshop.png'
     },
     {
-      title: 'React - The Complete Guide',
-      issuer: 'Udemy',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/8b5cf6?text=React+Course',
-      credentialUrl: '#'
+      title: 'Ardiuno Worshop',
+      issuer: 'IEEE Robotics and Automation Society-JSSATEB',
+      date: '2024',
+      image: '/ardiuno workshop.jpg',
+      credentialUrl: '/ardiuno workshop.jpg'
     },
     {
-      title: 'JavaScript Algorithms and Data Structures',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/06b6d4?text=JavaScript+Cert',
-      credentialUrl: '#'
+      title: 'Cybersecurity',
+      issuer: 'Infosys Springboard',
+      date: '2025',
+      image: '/cybersecurity.jpg',
+      credentialUrl: 'https://verify.onwingspan.com/'
     },
     {
-      title: 'Responsive Web Design',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/10b981?text=Web+Design',
-      credentialUrl: '#'
+      title: 'HTML',
+      issuer: 'Infosys Springboard',
+      date: '2025',
+      image: '/html.jpg',
+      credentialUrl: 'https://verify.onwingspan.com/'
     },
     {
-      title: 'Node.js Backend Development',
-      issuer: 'Coursera',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/f59e0b?text=Node.js+Cert',
-      credentialUrl: '#'
+      title: 'Kshitij Kascade-Participation',
+      issuer: 'IIT Kharagpur',
+      date: '2025',
+      image: '/Kshitij Kascade.jpg',
+      credentialUrl: '/Kshitij Kascade.jpg'
     },
-    {
-      title: 'Advanced CSS and Sass',
-      issuer: 'Udemy',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/ec4899?text=CSS+Course',
-      credentialUrl: '#'
-    },
-  ];
+];
 
   // Scroll functions
   const scroll = (direction) => {
@@ -171,23 +164,21 @@ const Certifications = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
+          className="flex justify-center mt-16"
         >
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">6+</div>
-            <div className="text-gray-400 text-sm">Certifications</div>
-          </div>
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">15+</div>
-            <div className="text-gray-400 text-sm">Projects Completed</div>
-          </div>
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">2+</div>
-            <div className="text-gray-400 text-sm">Years Experience</div>
-          </div>
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">100%</div>
-            <div className="text-gray-400 text-sm">Client Satisfaction</div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl">
+            <div className="glass-card p-6 text-center">
+              <div className="text-4xl font-bold gradient-text mb-2">5</div>
+              <div className="text-gray-400 text-sm">Certifications</div>
+            </div>
+            <div className="glass-card p-6 text-center">
+              <div className="text-4xl font-bold gradient-text mb-2">1</div>
+              <div className="text-gray-400 text-sm">Projects Completed</div>
+            </div>
+            <div className="glass-card p-6 text-center">
+              <div className="text-4xl font-bold gradient-text mb-2">0</div>
+              <div className="text-gray-400 text-sm">Experience</div>
+            </div>
           </div>
         </motion.div>
       </div>

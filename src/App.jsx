@@ -38,6 +38,10 @@ function App() {
     return <Preloader />;
   }
 
+  if (loading) {
+    return <Preloader />;
+  }
+
   return (
     <div className="relative">
       {/* Scroll Progress Bar */}
