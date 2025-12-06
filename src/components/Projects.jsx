@@ -17,7 +17,7 @@ const Projects = () => {
       image: '/Screenshot 2025-12-05 205608.png',
       tags: ['React', 'Framer Motion', 'TailwindCSS', 'Vite','Node.js','CSS'],
       github: 'https://github.com/ganavigirish/portfolio1.git',
-      demo: 'https://demo-portfolio.com',
+      demo: 'https://ganavi.vercel.app/',
       color: 'from-violet-500 to-purple-500'
     },
    
